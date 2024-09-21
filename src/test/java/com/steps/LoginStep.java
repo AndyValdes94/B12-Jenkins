@@ -30,7 +30,7 @@ public class LoginStep {
 		//driver = new FirefoxDriver();
 		
 		//Edge-WIndows User
-		//WebDriverManager.edgedriver().setup();
+		WebDriverManager.edgedriver().setup();
 		driver = new EdgeDriver();
 		
 		Thread.sleep(2000);
